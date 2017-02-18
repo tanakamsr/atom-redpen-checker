@@ -4,9 +4,6 @@
   "version": "0.5.0",
   "description": "Your documents checker by RedPen.",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "atom-redpen-checker:validate"
-  },
   "repository": "https://github.com/tanakamsr/atom-redpen-checker",
   "license": "MIT",
   "engines": {
