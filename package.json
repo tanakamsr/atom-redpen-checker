@@ -1,0 +1,19 @@
+{
+  "name": "atom-redpen-checker",
+  "main": "./lib/atom-redpen-checker",
+  "version": "0.1.0",
+  "description": "Your documents checker by RedPen.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-redpen-checker:validate"
+  },
+  "repository": "https://github.com/atom/atom-redpen-checker",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-message-panel": ">=1.2.4"
+  }
+}

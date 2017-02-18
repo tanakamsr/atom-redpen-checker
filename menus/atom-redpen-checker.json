@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Validate atom-redpen-checker",
+        "command": "atom-redpen-checker:validate"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-redpen-checker",
+          "submenu": [
+            {
+              "label": "Validate",
+              "command": "atom-redpen-checker:validate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
