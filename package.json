@@ -1,10 +1,9 @@
 {
   "name": "atom-redpen-checker",
   "main": "./lib/atom-redpen-checker",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Your documents checker by RedPen.",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "atom-redpen-checker:validate"
   },
