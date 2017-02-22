@@ -1,7 +1,7 @@
 {
   "name": "atom-redpen-checker",
   "main": "./lib/atom-redpen-checker",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "description": "Your documents checker by RedPen.",
   "keywords": [],
   "repository": "https://github.com/tanakamsr/atom-redpen-checker",
