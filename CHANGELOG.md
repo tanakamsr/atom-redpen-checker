@@ -1,4 +1,7 @@
 ## 0.7.0 - Release
+* Added Execution restriction by extension.
+
+## 0.7.0 - Release
 * Result summary output
 * Every bug fixed
 
