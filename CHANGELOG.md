@@ -1,3 +1,6 @@
+## 0.9.0 - Release
+* Added Selected text validation.
+
 ## 0.8.1 - Release
 * bug fixed.
 

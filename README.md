@@ -42,3 +42,5 @@ You can also execute it by Package menu, right-click, `ctrl-alt-o`.
 3. You can see report pane at bottom.
 
 You can use `Validate on save` option from Settings If you want to run validation each time a file is saved.
+
+It is also possible to verify only the selected range of text from the context menu.
