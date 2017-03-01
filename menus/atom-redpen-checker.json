@@ -4,6 +4,10 @@
       {
         "label": "Validate atom-redpen-checker",
         "command": "atom-redpen-checker:validate"
+      },
+      {
+        "label": "Validate selected text by atom-redpen-checker",
+        "command": "atom-redpen-checker:selectedTextValidate"
       }
     ]
   },
