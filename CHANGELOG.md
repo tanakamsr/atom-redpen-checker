@@ -1,3 +1,6 @@
+## 0.10.0 - Release
+* Make Redpen's configuration file selectable.
+
 ## 0.9.0 - Release
 * Added Selected text validation.
 

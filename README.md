@@ -44,3 +44,26 @@ You can also execute it by Package menu, right-click, `ctrl-alt-o`.
 You can use `Validate on save` option from Settings If you want to run validation each time a file is saved.
 
 It is also possible to verify only the selected range of text from the context menu.
+
+### Select Redpen configuration
+Add the path of the Redpen configuration file to the atom-redpen-check.cson file in the config folder (~ / .atom). Follow the example below.
+
+#### Example
+```cson
+[
+  {
+    title: "Rule Ja"
+    path: "/home/redpen/rule/redpen-conf-ja.xml"
+  }
+  {
+    title: "Rule en"
+    path: "/home/redpen/rule/redpen-conf-en.xml"
+  }
+  {
+    title: "Another Rule"
+    path: "/home/redpen/rule/another/redpen-conf.xml"
+  }
+]
+```
+
+You can select a rule by displaying a selection list from the context menu.

@@ -1,30 +1,30 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Validate atom-redpen-checker",
-        "command": "atom-redpen-checker:validate"
-      },
-      {
-        "label": "Validate selected text by atom-redpen-checker",
-        "command": "atom-redpen-checker:selectedTextValidate"
-      }
-    ]
-  },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "atom-redpen-checker",
-          "submenu": [
-            {
-              "label": "Validate",
-              "command": "atom-redpen-checker:validate"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    "context-menu": {
+        "atom-text-editor": [{
+            "label": "atom-redpen-checker",
+            "submenu": [{
+                    "label": "Validate",
+                    "command": "atom-redpen-checker:validate"
+                },
+                {
+                    "label": "Validate selected text",
+                    "command": "atom-redpen-checker:selectedTextValidate"
+                },
+                {
+                    "label": "Change rule",
+                    "command": "atom-redpen-checker:changeRule"
+                }
+            ]
+        }]
+    },
+    "menu": [{
+        "label": "Packages",
+        "submenu": [{
+            "label": "atom-redpen-checker",
+            "submenu": [{
+                "label": "Validate",
+                "command": "atom-redpen-checker:validate"
+            }]
+        }]
+    }]
 }

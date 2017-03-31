@@ -10,6 +10,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-message-panel": ">=1.2.4"
+    "atom-message-panel": ">=1.2.4",
+    "atom-select-list": ">=0.2.0",
+    "season": "^5.4.1"
   }
 }
